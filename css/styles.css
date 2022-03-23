@@ -46,6 +46,104 @@ li, a {
     margin-right: 280px;
 }
 
+.logo1 {
+  /* cursor: pointer; */
+  /* display: flex; */
+  position: absolute;
+  left: 2%;
+  top: 15%;
+  float: left;
+  /* width: 158px; */
+  /* height: 75px; */
+  /* margin-right: 250px; */
+  background-color: #45413e;
+}
+
+.logo2 {
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  float: left;
+  background-color: #45413e;
+}
+
+.logo3 {
+  position: absolute;
+  left: 70%;
+  top: 15%;
+  float: left;
+  background-color: #45413e;
+}
+
+
+.item-2 {
+  color: white;
+  background-color: #45413e;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  
+}
+
+.item-4 {
+  color: white;
+  background-color: #45413e;
+  position: absolute;
+  top: 25%;
+  left: 43%;
+}
+
+.item-6 {
+  color: white;
+  background-color: #45413e;
+  position: absolute;
+  top: 25%;
+  left: 78%;
+}
+
+.item {
+  flex-grow: 1;
+  flex-basis: 200px;
+}
+
+.item-2 item-4 item-6 {
+  flex-grow: 3;
+  
+}
+
+.title_focus {
+  color: white;
+  background-color: #45413e;
+}
+
+.description_focus {
+  color: #7d7976;
+  background-color: #45413e;
+  width: 300px;
+}
+
+.title_method {
+  color: white;
+  background-color: #45413e;
+}
+
+.description_method {
+  color: #7d7976;
+  background-color: #45413e;
+  width: 300px;
+}
+
+.title_knowledge {
+  color: white;
+  background-color: #45413e;
+}
+
+.description_knowledge {
+  color: #7d7976;
+  background-color: #45413e;
+  width: 300px;
+}
+
 .nav__links {
   list-style: none;
 }
@@ -90,6 +188,7 @@ button {
 }
 
 .container {
+  margin: 0;
   position: relative;
   text-align: center;
   color: white;
@@ -101,14 +200,51 @@ button {
 }
 
 .container_2 {
+  margin: 0;
   height: 1500px;
-  width: 85%;
+  width: 1600px;
   background-color: #262a33;
   position: absolute;
   /* left: 7.5%; */
   right: 7.5%;
   top: 80%;
-  
+  color: white;
+  text-align: center;
+}
+
+.container_3 {
+  margin: 0;
+  height: 500px;
+  width: 1600px;
+  background-color: #262a33;
+  position: absolute;
+  right: 7.5%;
+  top: 292.7%;
+  }
+
+.container_4 {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  height: 249px;
+  width: 1600px;
+  background-color: #45413e;
+  position: absolute;
+  right: 7.5%;
+  top: 344.3%;
+}
+
+.banner {
+  position: absolute;
+  top: 234.8%;
+  /* left: 7.5%; */
+  right: 7.5%;
+  /* top: 1500px; */
+  width: 1600px;
+  height: 561px;
+}
+
+
   /* position: relative;
   text-align: center;
   color: white;
@@ -119,22 +255,25 @@ button {
   width: 10%;
   margin: 35px 30% 0 68%;
   border-radius: 1%; */
-}
 
-.under_sales {
+
+.ceva {
   position: absolute;
   top: 450px;
   color: black;
   text-align: center;
-  left: 20px;
   width: 85%;
+  /* bottom: 200px; */
+  height: 200px;
+  width: 260px;
+  right: 16%;
 }
 
 .follow {
   border-radius: 20%;
   border: #84bc23;
-  margin: 20px 20px
-  padding: 20px 20px
+  margin: 20px 20px;
+  padding: 20px 20px;
 }
 .centered {
   position: absolute;
@@ -157,6 +296,57 @@ button {
   text-align: center;
   color: white;
 }
+
+.centered_3 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  background-color: #262a33;
+  color: white;
+}
+
+.description {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font-size: 17.5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
+  transform: translate(-50%, -50%);
+  background-color: #262a33;
+  color: white;
+}
+.banner_text1 {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  font-size: 60px;
+  font-family: "Arial";
+  font-weight: bold;
+  letter-spacing: -2.5px;
+  transform: translate(-50%, -50%);
+  background: none;
+  color: white
+}
+
+.banner_text2 {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 420px;
+  transform: translate(-50%, -50%);
+  background: none;
+  color: white;
+  text-align: center;
+} 
+
 .hr-left {
   position: absolute;
   top: 120px;
@@ -192,7 +382,7 @@ button {
   border: solid  #4d6c9f 2px;
   color: #4d6c9f;
   padding: 15px 25px 15px 20px;
-  /* font-size: 10px; */  
+  font-size: 10px;  
 }
 .load_button {
   position: absolute;
@@ -206,30 +396,30 @@ button {
   padding: 15px 100px 15px 100px;
   font-size: 20px;  
 }
-.banner {
-  position: absolute;
-  top: 1500px;
-  width: 1500px;
-  height: 100px;
-}
+
 
 .banner-img {
-  width: 750px;
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
 }
+
 #try {
   width: 80%;
   height: 20%;
   margin: 0 10% 0 10%;
 }
 
-#follow_us {
+.follow_us {
   font-size: 20px;
   margin: 10px;
+  color: black;
 }
 
-#follow_us2 {
+.follow_us2 {
   font-size: 15px;
   margin: 15px 20px 25px 20px;
+  color: black;
   
 }
 /* .main-footer {
